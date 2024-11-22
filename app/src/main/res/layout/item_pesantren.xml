@@ -3,23 +3,32 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@drawable/rounded_border"
+    android:layout_margin="10sp">
 
     <TextView
         android:id="@+id/tvNama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nama Pesantren" />
+        android:text="Nama Pesantren"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/tvKyai"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kyai" />
+        android:text="Kyai"
+        android:textSize="16dp"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/tvAlamat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Alamat" />
+        android:text="Alamat"
+        android:textSize="16dp"
+        android:textColor="@color/white" />
 </LinearLayout>
