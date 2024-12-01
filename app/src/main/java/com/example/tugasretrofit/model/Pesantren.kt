@@ -1,7 +1,7 @@
 package com.example.tugasretrofit.model
 
 data class Pesantren(
-    val id: String,
+    val id: Int,
     val nama: String,
     val nspp: String,
     val alamat: String,

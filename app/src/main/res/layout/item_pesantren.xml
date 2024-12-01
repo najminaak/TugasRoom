@@ -31,4 +31,37 @@
         android:text="Alamat"
         android:textSize="16dp"
         android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tambahkan ke Bookmark"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/beige"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/btn_remove"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hapus dari Bookmark"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/beige"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
 </LinearLayout>
